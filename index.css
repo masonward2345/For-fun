@@ -1,0 +1,104 @@
+header {
+    background-color: black;
+    height: 100px;
+}
+
+.image_1 {
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.navigation li {
+    color: white;
+    display: inline-block;
+    /*bottom: 90px;
+    left: 390px;*/
+    text-transform: uppercase;
+    font-family: 'orbitron';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navigation li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation li+li::before {
+    content: ">";
+    color: black;
+}
+
+body {
+    background-color: black;
+}
+
+.paragraph {
+    color: white;
+    font-family: 'orbitron';
+    text-align: center;
+    font-size: 25px;
+    border-top: #383E42 solid 3px;
+    border-bottom: #383E42 solid 3px;
+    padding: 0px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container_2 {
+    display: flex;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+.image_2 {
+    height: auto;
+    width: 45%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 25px;
+    display: flex;
+}
+
+/*.image_3 {
+    height: auto;
+    width: 45%;
+    padding-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}*/
+
+.paragraph_3 {
+    color: white;
+    font-family: 'orbitron';
+    display: flex;
+    vertical-align: top;
+    text-align: left;
+    margin-top: 20px; 
+}
+
+.paragraph_2 {
+    font-family: 'orbitron';
+    color: white;
+    text-align: center;
+    border-top: #383E42 solid 3px;
+    padding-top: 15px;
+}
+
+footer {
+    background-color: black;
+    border-top: #383E42 solid 3px;
+    font-family: 'orbitron';
+    color: white;
+    text-align: center;
+}
