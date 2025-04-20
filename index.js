@@ -4,5 +4,7 @@ randArray2 = ['look', 'are', 'seem', 'must be','is'];
 randArray3 = ['beautiful', 'pretty', 'gorgous', 'smart', 'amazing'];
 
 
-let random = Math.floor(Math.random() * 5);
-console.log(randArray1[random]);
+let randomWord1 = Math.floor(Math.random() * 5);
+let randomWord2 = Math.floor(Math.random() * 5);
+let randomWord3 = Math.floor(Math.random() * 5);
+
